@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@300;400;500;600;700&display=swap');
+
+:root {
+  --primary: #ff6464;
+  --secondary: #00a8cc;
+  --dark: #21243d;
+  --light: #8695a4;
+  --white: #fff;
+  --black: #000;
+  --whidth: 20px;
+  --light_blue:#EDF7FA;
+}
+html {
+  font-size: 0.625rem;
+}
+body {
+  font-family: 'Heebo', sans-serif;
+  font-weight: 400;
+  font-size: 1.6rem;
+  color: var(--dark);
+}
+img {
+  max-width: 100%;
+  display: block;
+}
+.container {
+  max-width: 860px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+.button {
+  padding: 10px 20px;
+  background: var(--primary);
+  font-weight: 500;
+  font-size: 2rem;
+  color: var(--white);
+}
+.button:hover {
+  cursor: pointer;
+  color: var(--primary);
+  transition: color 0.5s ease-in-out;
+  background: var(--white);
+  border: 2px solid var(--primary);
+    }
+.header {
+  background: var(--white);
+  padding: 30px 0px;
+}
+.header__content {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 150px;
+}
+.header__title {
+  font-size: 4.4rem;
+  line-height: 1.36;
+  font-weight: 700;
+  max-width: 440px;
+  margin-bottom: 40px;
+}
+.header__text {
+  margin-bottom: 40px;
+  max-width: 500px;
+}
+.menu {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  gap: 30px;
+  width: 90%;
+  margin: 0 auto;
+}
+.menu__link {
+  font-size: 2rem;
+  font-weight: 500;
+  color: var(--black);
+  transition: color 0.3s ease-in-out;
+  cursor: pointer;
+}
+.menu__link:hover {
+  color: var(--primary);
+}
+.posts {
+  padding: 2rem 0;
+  background: var(--light_blue);
+}
+.posts__content {
+  display: flex;
+  justify-content: space-between;
+}
+.posts__signature {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+.posts__signature h3 {
+  font-weight: 400;
+  font-size: 2.2rem;
+  line-height: 60px;
+  color: var(--dark);
+}
+.posts__signature h4 {
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 24px;
+  color: var(--secondary);
+}
+.posts__signature h4:hover {
+  cursor: pointer;
+  color: var(--primary);
+  transition: color 0.3s ease-in-out;
+  }
+.posts__left {
+  padding:22px;
+  margin-right: 1rem;
+  border-radius: 4px;
+  background: var(--white);
+  max-width: 418px;
+}
+.posts__right {
+  padding:22px;
+  margin-left: 1rem;
+  border-radius: 4px;
+  background: var(--white);
+  max-width: 418px;
+}
+.posts__title {
+  font-size: 2.6rem;
+  font-weight: 700;
+  line-height: 3.8rem;
+  color: var(--dark);
+  max-width: 374px;
+  margin-bottom: 17px;
+}
+.posts__row {
+  font-size: 1.8rem;
+  margin-bottom: 2rem;
+}
+.posts__text {
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  max-width: 368px;
+}
+.work {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #E0E0E0;
+  padding-bottom: 15px;
+  padding-top: 30px;
+}
+.title {
+  font-size: 2.2rem;
+  font-weight: 400;
+  color: var(--dark);
+  margin: 3rem 0 0 0;
+}
+.work__left img {
+  border-radius: 6px;
+  width: 100%;
+}
+.work__left {
+  width: 33%;
+}
+.work__right {
+  width: 67%;
+  display: flex;
+  flex-direction: column;
+  padding: 0 0 18px 18px;
+}
+.work__right img {
+  border-radius: 6px;
+}
+.work__row {
+  display: flex;
+  justify-content: start;
+  margin-bottom: 22px;
+}
+.work__title {
+  font-size: 3rem;
+  line-height: 44px;
+  color: var(--dark);
+  margin-bottom: 16px;
+  font-weight: 700;
+}
+.work__year {
+  color: var(--white);
+  font-weight: 900;
+  font-size: 1.8rem;
+  border-radius:16px;
+  height: 25px;
+  padding: 0 10px;
+  margin-right: 26px;
+  background: var(--dark);
+}
+.work__category {
+  font-size: 2rem;
+  line-height: 29px;
+  color: var(--light);
+  font-weight: 400;
+}
+.work__text {
+  font-size: 1.6rem;
+  line-height: 24px; 
+  color: var(--dark);
+  font-weight: 400;
+}
+footer {
+  text-align: center;
+  padding-bottom: 26px;
+  padding-top: 50px;
+}
+.footer-menu {
+  display: flex;
+  justify-content: center;
+  margin: 54px 0;
+}
+.footer-menu__item:not(:last-child) {
+  margin-right: 17px;
+}
+.footer-menu__item:not(:first-child) {
+  margin-left: 17px;
+}
+footer h3 {
+  font-size: 1.4rem;
+  line-height: 21px;
+  color:var(--dark);
+  font-weight: 400;
+}
